@@ -2,7 +2,7 @@
   "name": "modalconnect",
   "version": "1.0.0",
   "description": "Projeto para o desafio Tech Cycle 2018",
-  "main": "app.js",
+  "main": "app/dashboard.html",
   "author": "Pedro Alves Batista",
   "license": "ISC",
   "scripts": {
