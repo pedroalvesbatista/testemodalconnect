@@ -44,7 +44,7 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
+                <a href="#" class="simple-text">
                     ModalConnect
                 </a>
             </div>
@@ -57,19 +57,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="user.html">
+                    <a href="#">
                         <i class="ti-user"></i>
                         <p>Perfil usuario</p>
                     </a>
                 </li>
                 <li>
-                    <a href="table.html">
+                    <a href="#">
                         <i class="ti-view-list-alt"></i>
-                        <p>Tabelas</p>
+                        <p>Viagens</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.html">
+                    <a href="#">
                         <i class="ti-map"></i>
                         <p>Mapas</p>
                     </a>
@@ -95,31 +95,7 @@
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="ti-panel"></i>
-								<p>Stats</p>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="ti-bell"></i>
-                                    <p class="notification">5</p>
-									<p>Notifications</p>
-									<b class="caret"></b>
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Notification 1</a></li>
-                                <li><a href="#">Notification 2</a></li>
-                                <li><a href="#">Notification 3</a></li>
-                                <li><a href="#">Notification 4</a></li>
-                                <li><a href="#">Another notification</a></li>
-                              </ul>
-                        </li>
-						<li>
-                            <a href="#">
-								<i class="ti-settings"></i>
-								<p>Settings</p>
-                            </a>
-                        </li>
-                    </ul>
+
 
                 </div>
             </div>
@@ -274,7 +250,7 @@
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="ti-timer"></i> Campaign sent 2 days ago
+                                        <i class="ti-timer"></i> Configurar
                                     </div>
                                 </div>
                             </div>
@@ -283,21 +259,54 @@
                     <div class="col-md-6">
                         <div class="card ">
                             <div class="header">
-                                <h4 class="title">Custos Modais</h4>
+                                <h4 class="title">Custos Modais Mensal</h4>
                                 <p class="category">Economia Associada ModalConnect</p>
                             </div>
-                            <div class="content">
-                                <div id="chartActivity" class="ct-chart"></div>
+                            <!-- <div class="content">
+                                <div id="chartActivity" class="ct-chart"></div> -->
 
-                                <div class="footer">
-                                    <div class="chart-legend">
-                                        <i class="fa fa-circle text-info"></i> Tesla Model S
-                                        <i class="fa fa-circle text-warning"></i> BMW 5 Series
-                                    </div>
+															<div class="tablet">
+
+																<div class="content">
+                                <ul class="list-unstyled team-members">
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-xs-3">
+																											20k
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        Fretados
+                                                        <br>
+
+                                                    </div>
+
+
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="row">
+                                                    <div class="col-xs-3">
+                                                      4.5k
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        Bikes
+                                                        <br>
+                                                    </div>
+
+                                               </div>
+                                            </li>
+
+                                        </ul>
+                            </div>
+
+																</div
+
                                     <hr>
                                     <div class="stats">
-                                        <i class="ti-check"></i> Data information certified
+                                        <i class="ti-check"></i> Calculo para 50 pessoas,
+																				ate 1000 Km's
                                     </div>
+																		<br>
                                 </div>
                             </div>
                         </div>
@@ -305,36 +314,6 @@
                 </div>
             </div>
         </div>
-
-
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-
-                        <li>
-                            <a href="http://www.creative-tim.com">
-                                Creative Tim
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://blog.creative-tim.com">
-                               Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.creative-tim.com/license">
-                                Licenses
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>
-                </div>
-            </div>
-        </footer>
-
     </div>
 </div>
 
@@ -367,15 +346,6 @@
     	$(document).ready(function(){
 
         	demo.initChartist();
-
-        	$.notify({
-            	icon: 'ti-gift',
-            	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
-
-            },{
-                type: 'success',
-                timer: 4000
-            });
 
     	});
 	</script>

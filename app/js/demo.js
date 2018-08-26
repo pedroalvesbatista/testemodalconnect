@@ -57,9 +57,9 @@ demo = {
 
 
         var data = {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          labels: ['Janeiroeiro', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           series: [
-            [542, 543, 520, 680, 653, 753, 326, 434, 568, 610, 756, 895],
+            [542, 4000, 520, 680, 653, 753, 326, 434, 568, 610, 756, 895],
             [230, 293, 380, 480, 503, 553, 600, 664, 698, 710, 736, 795]
           ]
         };
@@ -248,9 +248,9 @@ demo = {
 
     //      bar chart
         var dataViews = {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          labels: ['Janeiroeiro', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           series: [
-            [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
+            [542, 1000, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
           ]
         };
 
@@ -282,9 +282,9 @@ demo = {
 
     //     multiple bars chart
         var data = {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+          labels: ['Janeiro', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
           series: [
-            [542, 543, 520, 680, 653, 753, 326, 434, 568, 610, 756, 895],
+            [20000, 40000, 60000, 80000, 10000, 120000, 140000, 160000, 180000, 200000, 220000, 240000],
             [230, 293, 380, 480, 503, 553, 600, 664, 698, 710, 736, 795]
           ]
         };
